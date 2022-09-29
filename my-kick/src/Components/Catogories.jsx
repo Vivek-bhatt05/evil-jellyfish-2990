@@ -1,7 +1,7 @@
 import { Flex,Box , Spacer ,Text} from '@chakra-ui/react'
 
 export default function Catogories(){
-    return <>
+    return <div style={{height:'60px',padding:'10px',color:'#35636d'}}>
     <Flex minWidth='max-content' alignItems='center' gap='2'>
   <Spacer />
   <Box p='2'>
@@ -18,5 +18,5 @@ export default function Catogories(){
       </Box>
   <Spacer />
 </Flex>
-    </>
+    </div>
 }
