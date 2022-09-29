@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar';
 import './App.css';
 import Catogories from './Components/Catogories';
+import Counts from './Components/Counts';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
    <Navbar />
      <hr />
    <Catogories />
+   <hr />
+   <Counts />
+   <hr />
     </>
   );
 }
